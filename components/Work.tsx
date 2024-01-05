@@ -71,7 +71,7 @@ const Work = () => {
           </div>
         </a>
       </div>
-      <div className="lg:hidden mt-20 w-full mt-20">
+      <div className="lg:hidden mt-10 w-full">
         <a
           target="_blank"
           href="https://leam.tech/"

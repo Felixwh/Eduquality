@@ -13,11 +13,11 @@ const Hero = () => {
           <HeroRight />
         </div>
       </div>
-      <div className="md:hidden w-[300px] h-[300px] mt-48">
-        <div className="relative w-full h-full">
+      <div className="md:hidden w-[300px] mt-48">
+        <div className="relative w-full">
           <HeroRight />
         </div>
-        <div className="relative w-full h-full">
+        <div className="relative w-full">
           <HeroLeft />
         </div>
       </div>

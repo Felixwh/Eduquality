@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1E2834;
+  scroll-behavior: smooth;
+}
+
+.menu-active {
+  height: 100vh;
+}

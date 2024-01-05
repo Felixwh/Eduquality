@@ -15,7 +15,7 @@ const Services = () => {
   };
 
   return (
-    <div className="min-h-screen px-10" id="services">
+    <div className="mt-10 lg:mt-0 min-h-screen px-10" id="services">
       <p className="text-white font-black text-3xl w-full text-center mt-10">
         SERVICES
       </p>

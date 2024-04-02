@@ -1,6 +1,6 @@
 import React from "react";
 
-const Bluepaca = () => {
+const TBC = () => {
   return (
     <img
       src="/work-3.jpg"
@@ -16,4 +16,4 @@ const Bluepaca = () => {
   );
 };
 
-export default Bluepaca;
+export default TBC;

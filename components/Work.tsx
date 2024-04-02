@@ -1,7 +1,7 @@
 import React from "react";
 import Leam from "./images/Leam";
 import Friseur from "./images/Friseur";
-import Bluepaca from "./images/Bluepaca";
+import TBC from "./images/TBC";
 
 const Work = () => {
   return (
@@ -44,7 +44,7 @@ const Work = () => {
           <div className="absolute w-full h-full bg-gradient-to-t from-black to-black/0 bottom-0 group-hover:h-[50%] duration-500 ease-in-out"></div>
           <div className="absolute w-full bottom-0 pt-4 duration-500 ease-in-out">
             <p className="text-5xl font-black text-white w-full text-center">
-              Friseur
+              Eva Kameter
             </p>
             <p className="text-sm text-white w-full text-center mb-4 mt-2">
               Friseur Eva Kameter
@@ -53,20 +53,20 @@ const Work = () => {
         </a>
         <a
           target="_blank"
-          href="https://bluepaca.com/"
+          href="https://conference.tum-blockchain.com/"
           rel="noopener noreferrer"
           className="cursor-pointer relative w-[33%] h-full ml-4 group hover:w-[80%] duration-500 ease-in-out"
         >
           <div className="absolute w-full h-full">
-            <Bluepaca />
+            <TBC />
           </div>
           <div className="absolute w-full h-full bg-gradient-to-t from-black to-black/0 bottom-0 group-hover:h-[50%] duration-500 ease-in-out"></div>
           <div className="absolute w-full bottom-0 pt-4 duration-500 ease-in-out">
             <p className="text-5xl font-black text-white w-full text-center">
-              Bluepaca
+              TBC
             </p>
             <p className="text-sm text-white w-full text-center mb-4 mt-2">
-              Bluepaca IT and development
+              TUM Blockchain Conference
             </p>
           </div>
         </a>
@@ -103,7 +103,7 @@ const Work = () => {
           <div className="absolute w-full h-full bg-gradient-to-t from-black to-black/0 bottom-0"></div>
           <div className="absolute w-full bottom-0 pt-4">
             <p className="text-4xl font-black text-white w-full text-center">
-              FRISEUR
+              Eva Kameter
             </p>
             <p className="text-sm text-white w-full text-center mb-4 mt-2 px-4">
               Friseur Eva Kameter
@@ -112,20 +112,20 @@ const Work = () => {
         </a>
         <a
           target="_blank"
-          href="https://bluepaca.com/"
+          href="https://conference.tum-blockchain.com/"
           rel="noopener noreferrer"
           className="relative block w-full min-h-[200px] mt-10"
         >
           <div className="w-full h-full">
-            <Bluepaca />
+            <TBC />
           </div>
           <div className="absolute w-full h-full bg-gradient-to-t from-black to-black/0 bottom-0"></div>
           <div className="absolute w-full bottom-0 pt-4">
             <p className="text-4xl font-black text-white w-full text-center">
-              BLUEPACA
+              TBC
             </p>
             <p className="text-sm text-white w-full text-center mb-4 mt-2 px-4">
-              Bluepaca IT and development
+              TUM Blockchain Conference
             </p>
           </div>
         </a>

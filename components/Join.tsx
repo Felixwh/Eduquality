@@ -18,7 +18,7 @@ const Join = () => {
         </p>
         <div className="mt-10 flex md:block justify-center">
           <a
-            href="#"
+            href="https://wa.me/491608340629/?text=Eduquality"
             className="items-center bg-[#3BB0AF] text-white px-8 py-3 rounded-xl shadow-md shadow-[#999999]"
           >
             Whatsapp

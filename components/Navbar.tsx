@@ -1,58 +1,39 @@
-import React from "react";
 import Logo from "./images/Logo";
-import Menu from "./images/Menu";
 
 const Navbar = () => {
   return (
-    <nav className="hidden md:visible fixed z-40 backdrop-blur-sm text-white text-lg md:flex items-center w-full h-[100px] mx-auto px-10 bg-[#1E2834]/50">
-      <button
-        className="mr-16"
-        onClick={() => {
-          if (document.location.pathname != "/") window.location.href = "/";
-        }}
-        onKeyDown={() => {
-          if (document.location.pathname != "/") window.location.href = "/";
-        }}
-      >
-        <Logo />
-      </button>
-      <button
-        className="flex w-[150px] h-full justify-center items-center hover:bg-white hover:text-black duration-300 ease-in"
-        onClick={() => {
-          if (document.location.pathname != "/")
-            window.location.href = "/#work";
-          document
-            .getElementById("work")
-            ?.scrollIntoView({ behavior: "smooth" });
-        }}
-      >
-        work
-      </button>
-      <button
-        className="flex w-[150px] h-full justify-center items-center hover:bg-white hover:text-black duration-300 ease-in"
-        onClick={() => {
-          if (document.location.pathname != "/")
-            window.location.href = "/#services";
-          document
-            .getElementById("services")
-            ?.scrollIntoView({ behavior: "smooth" });
-        }}
-      >
-        services
-      </button>
-      <button
-        className="flex w-[150px] h-full justify-center items-center hover:bg-white hover:text-black duration-300 ease-in"
-        onClick={() => {
-          if (document.location.pathname != "/")
-            window.location.href = "/#contact";
-          document
-            .getElementById("contact")
-            ?.scrollIntoView({ behavior: "smooth" });
-        }}
-      >
-        contact
-      </button>
-    </nav>
+    <div className="fixed w-full h-24 shadow-xl left-0 flex items-center justify-center z-50 bg-white">
+      <div className="flex w-full max-w-[1200px] items-center justify-between px-4">
+        <div className="flex">
+          <a href="/" className="flex items-center">
+            <div className="relative mx-auto w-[45px] h-[45px] md:w-[50x] md:h-[50px]">
+              <Logo />
+            </div>
+            <p className="font-semibold ml-4 md:text-2xl">Eduquality</p>
+          </a>
+          <a
+            href="#explain"
+            className="hidden md:flex items-center min-h-full ml-16"
+          >
+            <p>Über uns</p>
+          </a>
+          <a
+            href="#join"
+            className="md:flex hidden items-center min-h-full md:ml-16"
+          >
+            <p>Mitmachen</p>
+          </a>
+        </div>
+        <div>
+          <a
+            href="#join"
+            className="flex items-center bg-[#3BB0AF] px-6 md:px-8 py-2 rounded-xl shadow-md shadow-[#999999]"
+          >
+            <p className="text-white">Kontakt</p>
+          </a>
+        </div>
+      </div>
+    </div>
   );
 };
 

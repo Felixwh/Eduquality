@@ -1,14 +1,14 @@
 import React from "react";
 
-const Logo = () => {
+const Arrow = () => {
   return (
     <img
-      src="/logo.png"
-      alt="logo"
-      sizes="72px,72px"
+      src="/arrow.png"
+      alt="arrow"
+      sizes="70px,70px"
       style={{ objectFit: "contain", width: "100%", height: "100%" }}
     ></img>
   );
 };
 
-export default Logo;
+export default Arrow;
